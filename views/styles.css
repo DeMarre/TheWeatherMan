@@ -1,10 +1,18 @@
 
 
 
-body {
+body { background-color: rgb(32, 153, 153);
+    color:whitesmoke;
+    text-align: center;
+    font-size: x-large;
 
 }
 
-h1 {
+h1 { text-align: center;
     color: yellow ;
 }
+
+button{ text-align: center;
+background-color:cornflowerblue;
+border-color: black;
+font-size: large;}

@@ -17,8 +17,9 @@ app.get("/", (req, res) => {
 });
 
 app.post("/", (req, res) => {
-  res.send("");
+  req.body.location("");
 });
+
 //api.weatherapi.com/v1/current.json?key=18f9122497f94f61809174851222505&q=louisville&aqi=no
 
 // app.get("/london", (req, res) => {
